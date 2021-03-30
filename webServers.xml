@@ -37,7 +37,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="9e687d81-b651-472f-abdd-0778e1e7cdd3" name="SeaView" url="http://seaview.codechameleon.com">
-        <fileTransfer rootFolder="/srv/users/seaview/apps/seaview/public/wp-content/themes/" accessType="SFTP" sshConfigId="dce0b152-deb5-4813-9726-f66bd6153892" sshConfig="seaview@159.89.234.129:22 password">
+        <fileTransfer rootFolder="/srv/users/seaview" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="dce0b152-deb5-4813-9726-f66bd6153892" sshConfig="seaview@159.89.234.129:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
