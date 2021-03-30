@@ -1,0 +1,14 @@
+<templateSet group="HTML/XML">
+  <template name="php" value="&lt;?php &#10;$VAR$&#10;?&gt;" description="php" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ph" value="&lt;?php $VAR$; ?&gt;" description="php tags on one line" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

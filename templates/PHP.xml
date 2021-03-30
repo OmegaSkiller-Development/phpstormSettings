@@ -1,0 +1,21 @@
+<templateSet group="PHP">
+  <template name="pr" value="echo '&lt;pre&gt;';&#10;print_r($VAR$);&#10;echo '&lt;/pre&gt;';" description="Print beautified array" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dump" value="var_dump($VAR$);" description="var_dump" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sub" value="$VAR$ = get_sub_field('$FIELD$');" description="get_sub_field" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
