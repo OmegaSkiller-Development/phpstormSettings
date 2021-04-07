@@ -1,12 +1,12 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="159.89.234.129" id="74da233c-3233-48d6-8127-9340e3d370b7" port="22" nameFormat="DESCRIPTIVE" username="qasbsupgrade" />
-      <sshConfig authType="PASSWORD" host="159.89.234.129" id="25483fc3-633e-45c8-a2db-c88118f4d295" port="22" nameFormat="DESCRIPTIVE" username="riobravo" />
-      <sshConfig authType="PASSWORD" host="159.89.234.129" id="e9bb2316-02d4-4481-a2ed-9ac5228c6dee" port="22" nameFormat="DESCRIPTIVE" username="ivo" />
-      <sshConfig authType="PASSWORD" host="159.89.234.129" id="c37003c2-aae1-413f-b963-0a71a63e8b07" port="22" nameFormat="DESCRIPTIVE" username="acres-rebuild" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="74da233c-3233-48d6-8127-9340e3d370b7" port="22" nameFormat="DESCRIPTIVE" username="qasbsupgrade" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="25483fc3-633e-45c8-a2db-c88118f4d295" port="22" nameFormat="DESCRIPTIVE" username="riobravo" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="e9bb2316-02d4-4481-a2ed-9ac5228c6dee" port="22" nameFormat="DESCRIPTIVE" username="ivo" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="c37003c2-aae1-413f-b963-0a71a63e8b07" port="22" nameFormat="DESCRIPTIVE" username="acres-rebuild" />
       <sshConfig authType="PASSWORD" host="159.89.234.129" id="ced43b9e-a4ee-4ab8-9123-48965a654a12" port="22" nameFormat="DESCRIPTIVE" username="mmupgrade" />
-      <sshConfig authType="PASSWORD" host="159.89.234.129" id="97f2776b-927b-44ce-bac0-43640597a069" port="22" nameFormat="DESCRIPTIVE" username="depthchart" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="97f2776b-927b-44ce-bac0-43640597a069" port="22" nameFormat="DESCRIPTIVE" username="depthchart" />
     </configs>
   </component>
 </application>
