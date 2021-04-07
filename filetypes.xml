@@ -4,6 +4,8 @@
       <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
+      <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="tsv" approved="true" type="TSV" />
     </extensionMap>
   </component>
 </application>
