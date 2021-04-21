@@ -37,7 +37,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="9e687d81-b651-472f-abdd-0778e1e7cdd3" name="SeaView" url="http://seaview.codechameleon.com">
-        <fileTransfer rootFolder="/srv/users/seaview" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="dce0b152-deb5-4813-9726-f66bd6153892" sshConfig="seaview@159.89.234.129:22 password">
+        <fileTransfer rootFolder="/srv/users/seaview" accessType="SFTP" sshConfigId="dce0b152-deb5-4813-9726-f66bd6153892" sshConfig="seaview@159.89.234.129:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -47,6 +47,13 @@
         <fileTransfer rootFolder="/srv/users/depthchart" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="97f2776b-927b-44ce-bac0-43640597a069" sshConfig="depthchart@159.89.234.129:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7551ac1f-5efb-4e75-8043-7d050a2dd993" name="JCR" url="https://jcrauto.codechameleon.com/">
+        <fileTransfer rootFolder="/srv/users/jcrauto" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="685a05b2-8c87-4ff4-a22c-014fbe678d37" sshConfig="jcrauto@159.89.234.129:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
