@@ -51,7 +51,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="7551ac1f-5efb-4e75-8043-7d050a2dd993" name="JCR" url="https://jcrauto.codechameleon.com/">
-        <fileTransfer rootFolder="/srv/users/jcrauto" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="685a05b2-8c87-4ff4-a22c-014fbe678d37" sshConfig="jcrauto@159.89.234.129:22 password">
+        <fileTransfer rootFolder="/srv/users/jcrauto" accessType="SFTP" sshConfigId="685a05b2-8c87-4ff4-a22c-014fbe678d37" sshConfig="jcrauto@159.89.234.129:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
