@@ -7,6 +7,7 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="c37003c2-aae1-413f-b963-0a71a63e8b07" port="22" nameFormat="DESCRIPTIVE" username="acres-rebuild" />
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="ced43b9e-a4ee-4ab8-9123-48965a654a12" port="22" nameFormat="DESCRIPTIVE" username="mmupgrade" />
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="97f2776b-927b-44ce-bac0-43640597a069" port="22" nameFormat="DESCRIPTIVE" username="depthchart" />
+      <sshConfig authType="PASSWORD" host="159.89.234.129" id="685a05b2-8c87-4ff4-a22c-014fbe678d37" port="22" nameFormat="DESCRIPTIVE" username="jcrauto" />
     </configs>
   </component>
 </application>
