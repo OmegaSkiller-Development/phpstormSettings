@@ -8,6 +8,7 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="ced43b9e-a4ee-4ab8-9123-48965a654a12" port="22" nameFormat="DESCRIPTIVE" username="mmupgrade" />
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="97f2776b-927b-44ce-bac0-43640597a069" port="22" nameFormat="DESCRIPTIVE" username="depthchart" />
       <sshConfig authType="PASSWORD" host="159.89.234.129" id="685a05b2-8c87-4ff4-a22c-014fbe678d37" port="22" nameFormat="DESCRIPTIVE" username="jcrauto" />
+      <sshConfig authType="PASSWORD" host="159.89.234.129" id="73e6a3c8-4fa7-4988-b187-7076c9d3b531" port="22" nameFormat="DESCRIPTIVE" username="skybuilt" />
     </configs>
   </component>
 </application>

@@ -57,6 +57,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="ee814e15-8597-473d-8673-34ca017d7a5d" name="SkyBuilt" url="https://skybuilt.codechameleon.com/">
+        <fileTransfer rootFolder="/srv/users/skybuilt" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="73e6a3c8-4fa7-4988-b187-7076c9d3b531" sshConfig="skybuilt@159.89.234.129:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
