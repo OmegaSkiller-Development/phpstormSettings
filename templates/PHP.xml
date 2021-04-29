@@ -18,4 +18,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="gf" value="get_field('$VAR$');" description="get_field in PHP" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>

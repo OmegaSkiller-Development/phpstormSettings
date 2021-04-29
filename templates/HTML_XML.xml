@@ -11,4 +11,46 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="ife" value="&lt;?php &#10;    if(!empty($VAR$)) {&#10;?&gt;" description="if !empty" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ifee" value="&lt;?php&#10;    if (!empty($VAR1$) or !empty($VAR2$)) {&#10;?&gt;" description="if !empty of !empty" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="&lt;?php&#10;    }&#10;?&gt;" description="close php tag }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gf" value="&lt;?php echo get_field('$VAR$'); ?&gt;" description="get_field HTML" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="clife" value="&lt;?php&#10;    } if (!empty($VAR$)) {&#10;?&gt;" description="close tag and if !empty" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="wpa" value="&lt;?php echo wp_get_attachment_image($VAR$['img']['ID']); ?&gt;" description="wp_get_attachment_image" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ifa" value="&lt;?php &#10;    if (!empty($VAR$) and is_array($VAR$)) {&#10;?&gt; " description="if !empty and is_array" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
