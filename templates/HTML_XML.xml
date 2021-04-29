@@ -53,7 +53,19 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="link" value="&lt;?php&#10;    if($VAR$['int_ext'] == 'int') {&#10;        echo $VAR$['int_link'];&#10;    } else {&#10;        echo $VAR$['ext_link'] . '&quot; target=&quot;_blank';&#10;    }&#10;?&gt;" description="internal or external link" toReformat="false" toShortenFQNames="true">
+  <template name="link" value="&lt;?php&#10;    if($VAR$['int_ext'] == 'int') {&#10;        echo esc_url($VAR$['int_link']);&#10;    } else {&#10;        echo esc_url($VAR$['ext_link']) . '&quot; target=&quot;_blank';&#10;    }&#10;?&gt;" description="internal or external link" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="phe" value="&lt;?php echo $VAR$; ?&gt;" description="php echo" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="escl" value="&lt;?php echo esc_url($VAR$); ?&gt;" description="escape link" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
