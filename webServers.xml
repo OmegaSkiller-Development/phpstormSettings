@@ -16,7 +16,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="08d7c8f9-9864-4273-bb09-2551269d5b21" name="OmegaSkiller" url="http://omegaskiller.dev/">
-        <fileTransfer rootFolder="/srv/users/ivo" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="e9bb2316-02d4-4481-a2ed-9ac5228c6dee" sshConfig="ivo@159.89.234.129:22 password">
+        <fileTransfer rootFolder="/srv/users/ivo" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="e9bb2316-02d4-4481-a2ed-9ac5228c6dee" sshConfig="ivo@159.89.234.129:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
