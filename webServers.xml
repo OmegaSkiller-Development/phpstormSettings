@@ -30,7 +30,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="a87c7ce8-d7e2-45ca-9fd5-054a4802a2dc" name="Acres" url="https://acres.codechameleon.com">
-        <fileTransfer rootFolder="/srv/users/acres-rebuild" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="c37003c2-aae1-413f-b963-0a71a63e8b07" sshConfig="acres-rebuild@159.89.234.129:22 password">
+        <fileTransfer rootFolder="/srv/users/acres-rebuild" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="c37003c2-aae1-413f-b963-0a71a63e8b07" sshConfig="acres-rebuild@159.89.234.129:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -59,6 +59,13 @@
       </webServer>
       <webServer id="ee814e15-8597-473d-8673-34ca017d7a5d" name="SkyBuilt" url="https://skybuilt.codechameleon.com/">
         <fileTransfer rootFolder="/srv/users/skybuilt" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="73e6a3c8-4fa7-4988-b187-7076c9d3b531" sshConfig="skybuilt@159.89.234.129:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2f85ab79-4ad2-4a7d-aab8-7d72bce2d4c9" name="Zastrahovai" url="https://zi.codechameleon.com">
+        <fileTransfer rootFolder="/srv/users/zastra" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="e2d65a81-46a4-4918-b59b-b53b8026acd7" sshConfig="zastra@159.89.234.129:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
