@@ -9,7 +9,7 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="97f2776b-927b-44ce-bac0-43640597a069" port="22" nameFormat="DESCRIPTIVE" username="depthchart" />
       <sshConfig authType="PASSWORD" host="159.89.234.129" id="685a05b2-8c87-4ff4-a22c-014fbe678d37" port="22" nameFormat="DESCRIPTIVE" username="jcrauto" />
       <sshConfig authType="PASSWORD" host="159.89.234.129" id="73e6a3c8-4fa7-4988-b187-7076c9d3b531" port="22" nameFormat="DESCRIPTIVE" username="skybuilt" />
-      <sshConfig authType="PASSWORD" host="159.89.234.129" id="e2d65a81-46a4-4918-b59b-b53b8026acd7" port="22" nameFormat="DESCRIPTIVE" username="zastra" />
+      <sshConfig host="159.89.234.129" id="21e8d0a8-03b5-44a6-a077-c28b0ae5ac0c" keyPath="C:\Users\ipopov\Desktop\PortableGit\SSHKEYS\id_rsa" port="22" nameFormat="DESCRIPTIVE" username="zastra" />
     </configs>
   </component>
 </application>

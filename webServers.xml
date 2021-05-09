@@ -65,7 +65,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="2f85ab79-4ad2-4a7d-aab8-7d72bce2d4c9" name="Zastrahovai" url="https://zi.codechameleon.com">
-        <fileTransfer rootFolder="/srv/users/zastra" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="e2d65a81-46a4-4918-b59b-b53b8026acd7" sshConfig="zastra@159.89.234.129:22 password">
+        <fileTransfer rootFolder="/srv/users/zastra" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="21e8d0a8-03b5-44a6-a077-c28b0ae5ac0c" sshConfig="zastra@159.89.234.129:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
