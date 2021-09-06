@@ -1,0 +1,9 @@
+<application>
+  <component name="io.github.ricardormdev.clockifyplugin.settings.AppSettings">
+    <option name="userID">
+      <UserID>
+        <option name="value" value="611b66298d39bc0e826771cb" />
+      </UserID>
+    </option>
+  </component>
+</application>
