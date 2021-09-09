@@ -72,7 +72,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="c31d859a-17e5-429c-90dd-ff18852d27d9" name="Briner" url="https://briner.codechameleon.com/">
-        <fileTransfer rootFolder="/srv/users/briner" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="243d8624-67eb-45e9-8fa3-8e3dd1d24465" sshConfig="briner@159.89.234.129:22 key" keyPair="true">
+        <fileTransfer rootFolder="/srv/users/briner" accessType="SFTP" sshConfigId="243d8624-67eb-45e9-8fa3-8e3dd1d24465" sshConfig="briner@159.89.234.129:22 key">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
