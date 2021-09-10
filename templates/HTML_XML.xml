@@ -71,4 +71,11 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="fore" value="&lt;?php&#10;foreach($VAR$ as $VAR1$){&#10;?&gt;" description="php foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
