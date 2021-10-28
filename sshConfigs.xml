@@ -10,6 +10,9 @@
       <sshConfig authType="PASSWORD" host="159.89.234.129" id="685a05b2-8c87-4ff4-a22c-014fbe678d37" port="22" nameFormat="DESCRIPTIVE" username="jcrauto" />
       <sshConfig authType="PASSWORD" host="159.89.234.129" id="73e6a3c8-4fa7-4988-b187-7076c9d3b531" port="22" nameFormat="DESCRIPTIVE" username="skybuilt" />
       <sshConfig host="159.89.234.129" id="21e8d0a8-03b5-44a6-a077-c28b0ae5ac0c" keyPath="C:\Users\ipopov\Desktop\PortableGit\SSHKEYS\id_rsa" port="22" nameFormat="DESCRIPTIVE" username="zastra" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="423bd1f1-5ae9-4720-9012-a7e8e4d1fe05" keyPath="C:\Users\bossi\Documents\SSH\id_rsa" port="22" customName="zeegar@159.89.234.129:22" nameFormat="CUSTOM" username="zeegar">
+        <option name="customName" value="zeegar@159.89.234.129:22" />
+      </sshConfig>
     </configs>
   </component>
 </application>
