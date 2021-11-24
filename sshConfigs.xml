@@ -12,6 +12,9 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="423bd1f1-5ae9-4720-9012-a7e8e4d1fe05" keyPath="C:\Users\bossi\Documents\SSH\id_rsa" port="22" customName="zeegar@159.89.234.129:22" nameFormat="CUSTOM" username="zeegar">
         <option name="customName" value="zeegar@159.89.234.129:22" />
       </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.89.234.129" id="906bbfef-0bac-48a9-a0a8-b58177d28c1e" keyPath="C:\Users\bossi\Documents\SSH\id_rsa" port="22" customName="humanefw@159.89.234.129" nameFormat="CUSTOM" username="sandbox" useOpenSSHConfig="false">
+        <option name="customName" value="humanefw@159.89.234.129" />
+      </sshConfig>
     </configs>
   </component>
 </application>
