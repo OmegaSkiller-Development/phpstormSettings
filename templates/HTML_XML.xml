@@ -78,4 +78,10 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="to" value="&lt;?php echo get_field('$VAR$', 'au_options'); ?&gt;" description="Theme options get_field" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
