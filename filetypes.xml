@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="test" type="AUTO_DETECTED" />
+      <mapping pattern="d" type="AUTO_DETECTED" />
       <mapping pattern="dsadsadsa" type="AUTO_DETECTED" />
       <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
