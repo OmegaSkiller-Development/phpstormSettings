@@ -59,7 +59,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="phe" value="&lt;?php echo $VAR$; ?&gt;" description="php echo" toReformat="false" toShortenFQNames="true">
+  <template name="phe" value="&lt;?= $VAR$ ?&gt;" description="php echo" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
@@ -79,6 +79,12 @@
     </context>
   </template>
   <template name="to" value="&lt;?php echo get_field('$VAR$', 'au_options'); ?&gt;" description="Theme options get_field" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="sub" value="&lt;?= get_sub_field('$VAR$') ?&gt;" description="echo sub field" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
