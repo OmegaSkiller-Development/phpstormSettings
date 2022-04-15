@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="hi" type="AUTO_DETECTED" />
       <mapping pattern="test" type="AUTO_DETECTED" />
       <mapping pattern="d" type="AUTO_DETECTED" />
       <mapping pattern="dsadsadsa" type="AUTO_DETECTED" />
