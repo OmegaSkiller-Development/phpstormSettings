@@ -4,6 +4,7 @@
       <mapping pattern="hi" type="AUTO_DETECTED" />
       <mapping pattern="test" type="AUTO_DETECTED" />
       <mapping pattern="d" type="AUTO_DETECTED" />
+      <mapping pattern="dsa" type="AUTO_DETECTED" />
       <mapping pattern="dsadsadsa" type="AUTO_DETECTED" />
       <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
