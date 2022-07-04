@@ -6,6 +6,7 @@
       <mapping pattern="d" type="AUTO_DETECTED" />
       <mapping pattern="dsa" type="AUTO_DETECTED" />
       <mapping pattern="dsadsadsa" type="AUTO_DETECTED" />
+      <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
