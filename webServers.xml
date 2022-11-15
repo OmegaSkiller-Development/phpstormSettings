@@ -1,0 +1,20 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="66744687-9899-4b75-bded-42e2049dfd8e" name="guestwranglerTool" url="https://guestwrangler.com/">
+        <fileTransfer rootFolder="/srv/users/hopehouse" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="5a368f55-f70f-49d0-a119-b351c3e59e36" sshConfig="hopehouse@159.89.234.129:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="91b246e3-b480-4d12-8eaa-e8713ca3577d" name="guestwranglerWP" url="https://guestwrangler.codechameleon.com/">
+        <fileTransfer rootFolder="/srv/users/guestwrangler" accessType="SFTP" host="159.89.234.129" port="22" sshConfigId="71809ad3-7be7-441a-a80d-d0d670537557" sshConfig="guestwrangler@159.89.234.129:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
