@@ -16,6 +16,7 @@
         <option name="customName" value="humanefw@159.89.234.129" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="134.209.227.13" id="e406b1f8-2773-4113-a1c5-201268201af5" port="22" nameFormat="DESCRIPTIVE" username="tonearthmap" useOpenSSHConfig="true" />
+      <sshConfig host="159.89.234.129" id="5a368f55-f70f-49d0-a119-b351c3e59e36" keyPath="C:\Users\bossi\Documents\SSH\id_rsa" port="22" nameFormat="DESCRIPTIVE" username="hopehouse" useOpenSSHConfig="true" />
     </configs>
   </component>
 </application>
